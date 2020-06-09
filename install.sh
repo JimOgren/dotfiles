@@ -28,6 +28,3 @@ for file in ${files}; do
     echo "Creating symlink to $file in home directory."
     ln -sf ${dotfiledir}/.${file} ${homedir}/.${file}
 done
-
-# Run the Homebrew Script
-./brew.sh
