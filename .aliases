@@ -36,3 +36,10 @@ alias ls="command ls ${colorflag}"
 
 # some more ls aliases
 alias ll='ls -alF'
+
+# make python3 default
+alias python=python3
+alias pip=pip3
+
+# matlab executable
+alias matlab=/home/jim/MATLAB/R2020b/bin/matlab
