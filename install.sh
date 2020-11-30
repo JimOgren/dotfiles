@@ -16,7 +16,7 @@ homedir=$1
 dotfiledir=${homedir}/dotfiles
 
 # list of files/folders to symlink in ${homedir}
-files="bash_profile bashrc bash_prompt aliases private"
+files="bash_profile bashrc bash_prompt aliases private gitconfig vimrc"
 
 # change to the dotfiles directory
 echo "Changing to the ${dotfiledir} directory"
@@ -30,4 +30,4 @@ for file in ${files}; do
 done
 
 # Run the Homebrew Script
-./brew.sh
+#./brew.sh
