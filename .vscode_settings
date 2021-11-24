@@ -1,0 +1,27 @@
+# Add the following in settings.json
+{
+    "editor.fontSize": 11,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "terminal.integrated.env.linux": {
+    
+    },    
+    "terminal.integrated.defaultProfile.linux": "",
+    "python.linting.pylintEnabled": true,
+    "window.zoomLevel": -1,
+    "terminal.integrated.fontSize": 12,    
+}
+
+
+# Add in keybindings
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  }
