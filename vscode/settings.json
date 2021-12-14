@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 12,
+    "editor.fontSize": 13,
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
@@ -9,7 +9,7 @@
     "terminal.integrated.defaultProfile.linux": "",
     "python.linting.pylintEnabled": true,
     "window.zoomLevel": -1,
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 13,
     "jupyter.askForKernelRestart": false,
     "explorer.confirmDragAndDrop": false,
     
