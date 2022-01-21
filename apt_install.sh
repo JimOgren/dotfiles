@@ -25,7 +25,8 @@ install octave
 install software-properties-common 
 install apt-transport-https 
 install wget
-install make 
+install make
+install inkscape
 
 install gnome-tweaks
 install chrome-gnome-shell
