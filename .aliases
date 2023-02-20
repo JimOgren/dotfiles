@@ -54,8 +54,5 @@ alias get='git '
 #alias python=python3
 #alias pip=pip3
 
-# matlab executable
-alias matlab=/home/jim/MATLAB/R2020b/bin/matlab
-
 # ocatve without gui
 alias octav='octave --no-gui'
