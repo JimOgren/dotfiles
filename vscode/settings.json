@@ -8,9 +8,19 @@
     },    
     "terminal.integrated.defaultProfile.linux": "",
     "python.linting.pylintEnabled": true,
-    "window.zoomLevel": -1,
     "terminal.integrated.fontSize": 13,
     "jupyter.askForKernelRestart": false,
     "explorer.confirmDragAndDrop": false,
-    
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "window.zoomLevel": -1,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.ignoreLegacyWarning": true,    
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.remotePlatform": {
+        "rackham.uppmax.uu.se": "linux"
+    }
 }
